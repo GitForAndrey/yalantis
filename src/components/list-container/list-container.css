@@ -1,0 +1,29 @@
+.list_container {
+  display: flex;
+}
+#month-list {
+  width: 40%;
+}
+.month {
+  padding: 5px 20px;
+  margin-bottom: 3px;
+  color: #000;
+}
+.person-list {
+  display: none;
+}
+.month:hover .person-list {
+  display: block;
+}
+.gray {
+  background-color: gray;
+}
+.blue {
+  background-color: blue;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
