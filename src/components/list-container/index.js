@@ -116,7 +116,7 @@ const ListContainer = () => {
     <div className="list_container">
       {load ? <div id="month-list">{renderMonth(data, monthList)}</div> : <Spinner />}
 
-      {persons && <PersonList personList={persons} />}
+      <PersonList personList={persons} />
     </div>
   );
 };
